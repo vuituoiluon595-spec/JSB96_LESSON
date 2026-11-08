@@ -1,0 +1,53 @@
+/* universe, priority: 5 */
+* {
+  color: red;
+}
+
+/* tag name, priority: 4 */
+p {
+  color: blue;
+}
+
+/* class name, priority: 3 */
+.sub-title {
+  color: green;
+}
+
+/* id name, priority: 2 */
+#sub1 {
+  color: rgb(255, 255, 23);
+}
+
+/* inline code, priority: 1
+vd: style="color:blueviolet"
+*/
+
+/* ============================================= */
+body {
+  /* vien trong */
+  padding: 0 10%;
+  /* vien ngoai */
+  margin: 0;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e0cc328008799.56e41b35c50a5.gif");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px dotted purple;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
