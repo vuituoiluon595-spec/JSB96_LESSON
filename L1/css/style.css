@@ -31,6 +31,11 @@ body {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e0cc328008799.56e41b35c50a5.gif");
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .avatar {
